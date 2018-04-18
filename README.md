@@ -1,8 +1,8 @@
-### Notes
+# Notes
 
 `Range.js`作為`<input type="range">`的元素
 
-#### props 
+## Props 
 子元素有兩種方式使用`props`，一種比較常見，從母元素定義的拿
 ```jsx
 <Child
@@ -18,10 +18,7 @@ Child.defaultProps = {/**/}
 static get defaultProps() {/**/}
 static defaultProps = {/**/}
 ```
-
-
-
-#### bugs
+## Bug
 
 ```js
 console.log(this.state)
